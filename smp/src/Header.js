@@ -13,7 +13,6 @@ import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 function Header() {
     return (
-        <div>
             <div className="header">
                 <div className="header__left">
                     <img src="https://facebookbrand.com/wp-content/uploads/2019/10/flogo_RGB_HEX-BRC-Site-250.png?w=125&h=125" 
@@ -59,8 +58,7 @@ function Header() {
                     </IconButton>
                 </div>
             </div>
-        </div>
-    )
+            )
 }
 
 export default Header
